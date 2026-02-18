@@ -1,0 +1,14 @@
+id: terraform-version-check
+title: Terraform Version Check
+description: Verify that Terraform is installed and working correctly in your lab environment.
+version: v1.0.0
+cloud_provider: aws
+duration_minutes: 15
+difficulty: beginner
+tools:
+tasks:
+  - id: task1
+    title: Check Terraform Version
+    description: Run terraform --version to verify Terraform is installed
+    check_script: checks/task1-check.sh
+    hint: Open a terminal and run the terraform --version command
